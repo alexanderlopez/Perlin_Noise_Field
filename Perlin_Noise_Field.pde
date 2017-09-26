@@ -12,7 +12,7 @@ Particle[] particles;
 
 void setup()
 {
-  size(1100,700,P2D);
+  size(1100,700);//,P2D);
   cols = width/scale;
   rows = height/scale;
   field = new Vector[cols][rows];
